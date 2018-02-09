@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  headerImage = './assets/Low_Poly_Wallpaper_2.jpg';
 }

@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footer-content {
+    margin: 0 50px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-content-data {
+    margin: 0 2%;
+  }
