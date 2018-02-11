@@ -2,10 +2,11 @@
   <a routerLink = "/home">
     <img class="logo" src={{logo}} alt="Logo">
   </a>
-  <nav class="menu">
-    <a routerLink ="/home">Home</a>
+  <nav class={{getMenuClass()}}>
+   <a routerLink ="/home">Home</a>
    <a routerLink ="/about">About</a>
    <a routerLink ="/service">Services</a>
    <a routerLink ="/contact">Contact</a>
- </nav>
+   <a href="javascript:void(0)" (click)="toggleClass()" class="icon">&#9776;</a>
+  </nav>
 </div>
